@@ -1,5 +1,5 @@
 # IT architektúra beadandó
-Készítette: Horváth Bence (egyedül)
+Készítette: Horváth Bence - er51ew (egyedül)
 
 ## A projekt
 
@@ -40,7 +40,9 @@ A virtuális gépek telepítését és a szerver konfigurálását tartalmazzák
 
 ### Video
 
-A szervert és a klienst bemutató videó. OBS-sel vettem fel a képet és utólag Microsoft Clipchampben raktam alá hangot, mert azt nem vette fel az OBS valamiért.
+A szervert és a klienst bemutató videó. OBS-sel vettem fel a képet és utólag Microsoft Clipchampben raktam alá hangot, mert azt nem vette fel az OBS valamiért.  
+A videót végül csak két részletben engedte feltölteni.
+A vedeó OneDrive linke: https://unicorvinus-my.sharepoint.com/:v:/g/personal/bence_horvath5_stud_uni-corvinus_hu/IQAwvxBZCTCIRYtK_fsnHTZJATuD2QRle2wblU4lkYZpJco?e=jGQyV9
 
 ## Felhasznált anyagok
 
