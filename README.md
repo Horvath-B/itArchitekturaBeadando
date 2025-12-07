@@ -30,4 +30,10 @@ Egyszerű Paintben általam rajzolt kép. Ez van a megosztott mappában és ezt 
 ### virtualisGepek mappa
 
 A két virtuális gépet létrehozó Azure Cloud scriptek vannak benne. Mindkét script az órán használtaknak a VSCode-ban átalakított változata.  
-A szervergép 
+A szervergép scriptjében csak a gép nevét, felhasználót, erőforráscsoportot, stb. módosítottam.  
+A kliensében hozzáadtam még egy tűzfal szabályt, hogy rdp-vel és ssh-val is el lehessen érni. Ezen kívül úgy állítottam át, hogy a már meglévő erőforráscsoporthoz és hálózathoz adja hozzá az új gépet.
+
+### telepitesEsKonfiguralas
+
+Ennek a fájlnak két változata van, egy word dokumentum és egy abból készült pdf, hogy githubon is meg lehessen nézni letöltés nélkül.  
+A virtuális gépek telepítését és a szerver konfigurálását tartalmazzák lépésről-lépésre képernyőképekkel és szövegekkel.
