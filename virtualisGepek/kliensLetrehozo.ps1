@@ -14,21 +14,11 @@ $version   = "latest"
 $VnetName = "halozat"
 $NICName = "halozatiKartyaKliens"
 $SubnetName = "alhalozat"
-#$SubnetCidr = "10.0.0.0/24"
-#$VnetCidr = "10.0.0.0/16"
 $NSGName    = "halozatiBiztCsopKliens"
 $PipName = "publikusIpCimKliens"
 
-
-
-#new-azResourceGroup -Location $location -Name $rg
-
 $pip = New-AzPublicIpAddress -Name $PipName -ResourceGroupName $rg -Location $location -AllocationMethod Static -Sku Standard
 
-#$vnet = New-AzVirtualNetwork -Name $VnetName -ResourceGroupName $rg -Location $location `
-#        -AddressPrefix $VnetCidr
-#$vnet = Add-AzVirtualNetworkSubnetConfig -Name $SubnetName -VirtualNetwork $vnet -AddressPrefix $SubnetCidr
-#$vnet = Set-AzVirtualNetwork -VirtualNetwork $vnet
 $vnet   = Get-AzVirtualNetwork -Name $VnetName -ResourceGroupName $rg
 $subnet = Get-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $SubnetName
 $subnetId = $subnet.Id
