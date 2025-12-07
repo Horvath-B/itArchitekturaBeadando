@@ -1,13 +1,14 @@
+cd ~
 #frissites es gnome telepitese
 sudo apt-get update -y
 sleep 20
 sudo apt-get istall tasksel -y
-sleep 20
+sleep 60
 sudo apt-get install task-gnome-desktop -y
 sleep 30m
 #git letoltese, kesobb kelleni fog
 sudo apt-get install git -y
-sleep 30
+sleep 60
 #hatterkep beallitasa
 gsettings set org.gnome.desktop.background picture-uri 'file:///home/rendszergazda/hatterkep.png'
 #mappak parancsikonja a Desktop-ban
@@ -25,7 +26,7 @@ sleep 20
 sudo apt-get install gettext -y
 sleep 20
 sudo apt-get install ninja-build -y
-sleep 20
+sleep 60
 chmod 744 desktop-icons-ng/meson.build
 sleep 1
 ./desktop-icons-ng/local_install.sh
@@ -34,13 +35,14 @@ gnome-extensions enable ding@rastersoft.com
 sleep 2
 #Dash to panel letoltese
 sudo apt-get install make -y
-sleep 20
+sleep 30
 git clone https://github.com/home-sweet-gnome/dash-to-panel.git
-sleep 5
+sleep 10
 cd dash-to-panel
 sleep 1
 make install
-sleep 20
+sleep 60
+cd ~
 sudo reboot
 sleep 3m
 gnome-extensions enable dash-to-panel@jderose9.github.com
