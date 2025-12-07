@@ -44,7 +44,16 @@ A szervert és a klienst bemutató videó.
 
 ## Felhasznált anyagok
 
-A gyakorlatok diái és videói.  
-Ask Ubuntu oldal több lapja a script elkészítéséhez: 
+A gyakorlatok diái és videói: https://moodle.uni-corvinus.hu/course/view.php?id=211625  
+Ask Ubuntu oldal több lapja: 
 - https://askubuntu.com/questions/66914/how-to-change-desktop-background-from-command-line-in-unity
-- 
+- https://askubuntu.com/questions/803162/how-to-change-windows-line-ending-to-unix-version
+- https://askubuntu.com/questions/1050460/how-to-mount-smb-share-on-ubuntu-18-04
+- https://askubuntu.com/questions/8252/how-to-launch-default-web-browser-from-the-terminal
+- https://stackoverflow.com/questions/29889074/how-to-wait-for-first-command-to-finish a sleep parancsot végül nem használtam
+
+Debian wiki, a gnome parancssal telepítéséhez: https://wiki.debian.org/Gnome#task
+Dash to Panel kiegészítő oldala: https://github.com/home-sweet-gnome/dash-to-panel/wiki/Installation  
+Desktop Icons NG kiegészítő oldala: https://gitlab.com/rastersoft/desktop-icons-ng  
+Saját első féléves tárgy weblapja: https://github.com/Horvath-B/webfejlesztes
+Mesterséges intelligenciát nem használtam.
