@@ -19,8 +19,8 @@ A kliensgép képes elérni a szerver megosztott mappáját, és onnan letölten
 
 Az asztali környezet telepítését tartalmazó parancsok a kliensgép számára, VSCode-ban írtam, a saját Windowsos gépemen. Az egyszerű GNOME-on kívül telepíti a 'Dash to Panel'- a 'Desktop Icons NG' bővítményeket és a 'git'-et is, beállítja a háttérképet és létrehoz parancsikonokat az asztalon a fontosabb mappákhoz.  
 A 'Desktop Icons NG' valamiért nem mindig települ, tesztelésnél is hol sikerült hol nem.  
-A weblapot nem nyitja meg a parancs ssh-n keresztül, csak ha a kliensgép terminálján adjuk ki.
-A windows és linux karakterkódolási különbözőségei miatt a futtatása először hibára futna, ezért át kell alakítani a __dos2unix__ paranccsal.
+A weblapot nem nyitja meg a parancs ssh-n keresztül, csak ha a kliensgép terminálján adjuk ki.  
+A windows és linux karakterkódolási különbözőségei miatt a futtatása először hibára futna, ezért át kell alakítani a __dos2unix__ paranccsal.  
 A videóban bemutatott változat tartalmazott __sleep__ parancsokat a többi parancs között. Azonban ezek használatáról a videó közben kiderült, hogy felesleges, ezért utólag eltávolítottam őket.
 
 #### hatterkep.png
@@ -37,3 +37,14 @@ A kliensében hozzáadtam még egy tűzfal szabályt, hogy rdp-vel és ssh-val i
 
 Ennek a fájlnak két változata van, egy word dokumentum és egy abból készült pdf, hogy githubon is meg lehessen nézni letöltés nélkül.  
 A virtuális gépek telepítését és a szerver konfigurálását tartalmazzák lépésről-lépésre képernyőképekkel és szövegekkel.
+
+### Video
+
+A szervert és a klienst bemutató videó.
+
+## Felhasznált anyagok
+
+A gyakorlatok diái és videói.  
+Ask Ubuntu oldal több lapja a script elkészítéséhez: 
+- https://askubuntu.com/questions/66914/how-to-change-desktop-background-from-command-line-in-unity
+- 
